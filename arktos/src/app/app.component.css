@@ -1,0 +1,32 @@
+body{
+    background-color:#031326 ;
+}
+.nav{
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #031326;
+}
+li{
+    display: inline;
+    float: right;
+    
+}
+.a {
+    
+    display: block;
+    color: #ffff;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-family: "Inter";
+    
+    
+}
+.active{
+    color: white;
+    background-color: #04AA6D;
+   
+}
