@@ -1,0 +1,16 @@
+
+.text{
+    color: aliceblue;
+    margin-left:1%;
+    font-size: 20px;
+    font-family: "Georgia";
+    text-align: justify;
+}
+.text2{
+    
+    color: aliceblue;
+    margin-left:1%;
+    font-size: 45px;
+    font-family: "Georgia";
+    text-align: right;
+}
