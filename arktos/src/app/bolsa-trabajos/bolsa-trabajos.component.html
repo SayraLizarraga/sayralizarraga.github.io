@@ -1,16 +1,65 @@
 <div class="row">
     <div>
-      <img src="./assets/media/bolsa.png" alt="" width="1520" height="319" >
-    </div>
-  
-    <div style="margin-top:5%; margin-left: 20%;">
-      <img src="./assets/media/gmail.png" style="float:left;width:40px;height:40px;" >
-      <h1 style="color: aliceblue;">Correos</h1>
-    </div>
-    <div style="margin-top: 0.1%; margin-left: 14.5%;">
-      <p style="color: aliceblue;font-size:200%; " >arktos&#64;hotmail.com.mx</p>
-    </div>
-    <div style="margin-top: 0.1%; margin-left: 13.5%;">
-      <p style="color: aliceblue;font-size:200%; " >empleos.arktos&#64;hotmail.com</p>
+      <img src="./assets/media/bolsa.png" alt="" width="1536" height="319">
     </div>
 
+
+    <div class="container text-center" style="margin-top:2% ;">
+      <div class="row">
+        <div class="col-md-5" style="margin-top:10% ;">
+          
+          <h1 style="color: rgb(1, 1, 1);"><img src="./assets/media/gmail.png" style="width:40px;height:40px; margin-right: 1.5%;" >  Correos</h1>
+          <p style="color: rgb(1, 1, 1);font-size:200%; " >arktos&#64;hotmail.com.mx</p>
+          <p style="color: rgb(1, 1, 1);font-size:200%; " >empleos.arktos&#64;hotmail.com</p>
+        </div>
+
+        <div class="col-md-7">
+          <form class="row g-3 needs-validation" novalidate>
+            <div>
+              <label for="validationCustom01" class="form-label"> Nombres</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            
+            </div>
+             <div>
+              <label for="validationCustom02" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+             </div>
+           <div>
+            <label for="validationCustomUsername" class="form-label">Correo</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">&#64;</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+           </div>
+           <div class="mb-3">
+            <label for="validationCustomUsername" class="form-label">CV</label>
+            <input type="file" class="form-control" aria-label="file example" required>
+          </div>
+            <div >
+              <div class="form-check" style="text-align: left;">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck" >
+                  Aceptar términos y condiciones
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+          </div>
+        </div>
+        
+      </div>
